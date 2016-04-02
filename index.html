@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Epiphany Form Filler Sample Page</title>
+
+  <link rel="stylesheet" crossorigin="anonymous"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7">
+</head>
+<body>
+  <header class="page-header">
+    <h1 class="text-center">Epiphany Form Filler Sample Page</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="container">Fields with Forms</h2>
+
+      <article class="container">
+        <h3>Personal Fields</h3>
+        <form>
+          <div class="form-group">
+            <label for="personalFormFirstname">First Name</label>
+            <input type="text" class="form-control" id="personalFormFirstname">
+          </div>
+          <div class="form-group">
+            <label for="personalFormLastname">Last Name</label>
+            <input type="text" class="form-control" id="personalFormLastname">
+          </div>
+          <div class="form-group">
+            <label for="personalFormHobby">Hobby</label>
+            <input type="text" class="form-control" id="personalFormHobby">
+          </div>
+        </form>
+      </article>
+
+      <hr>
+
+      <article class="container">
+        <h3>Credit Card Fields</h3>
+        <form>
+          <div class="form-group">
+            <label for="cardFormType">Credit Card Type</label>
+            <select class="form-control" id="cardFormType">
+              <option value="A" selected>American Express</option>
+              <option value="D">Discover</option>
+              <option value="M">MasterCard</option>
+              <option value="V">Visa</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="cardFormNumber">Credit Card Number</label>
+            <input type="text" class="form-control" id="cardFormNumber">
+          </div>
+          <div class="form-group">
+            <label for="cardFormHobby">Hobby</label>
+            <input type="text" class="form-control" id="cardFormHobby">
+          </div>
+        </form>
+      </article>
+
+      <hr>
+
+      <article class="container">
+        <h3>Personal and Credit Card Fields</h3>
+        <form name="myForm">
+          <div class="form-group">
+            <label for="personalAndCardFormFirstname">First Name</label>
+            <input type="text" class="form-control" id="personalAndCardFormFirstname">
+          </div>
+          <div class="form-group">
+            <label for="personalAndCardFormLastname">Last Name</label>
+            <input type="text" class="form-control" id="personalAndCardFormLastname">
+          </div>
+            <div class="form-group">
+              <label for="personalAndCardFormType">Credit Card Type</label>
+              <select class="form-control" id="personalAndCardFormType">
+                <option value="A" selected>American Express</option>
+                <option value="D">Discover</option>
+                <option value="M">MasterCard</option>
+                <option value="V">Visa</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="personalAndCardFormNumber">Credit Card Number</label>
+              <input type="text" class="form-control" id="personalAndCardFormNumber">
+            </div>
+            <div class="form-group">
+              <label for="personalAndCardFormHobby">Hobby</label>
+              <input type="text" class="form-control" id="personalAndCardFormHobby">
+            </div>
+        </form>
+      </article>
+
+      <hr>
+
+      <article class="container">
+        <h3>No Personal or Credit Card Fields</h3>
+        <form>
+          <div class="form-group">
+            <label for="noFieldsFormPet">Pet Name</label>
+            <input type="text" class="form-control" id="noFieldsFormPet">
+          </div>
+          <div class="form-group">
+            <label for="noFieldsFormHobby">Hobby</label>
+            <input type="text" class="form-control" id="noFieldsFormHobby">
+          </div>
+        </form>
+      </article>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2 class="container">Fields without Forms</h2>
+
+      <article class="container">
+        <h3>Personal Field</h3>
+        <div class="form-group">
+          <label for="nameField">Full Name</label>
+          <input type="text" class="form-control" id="nameField">
+        </div>
+      </article>
+
+      <hr>
+
+      <article class="container">
+        <h3>Credit Card Field</h3>
+        <div class="form-group">
+          <label for="cardNumberField">Credit Card Number</label>
+          <input type="text" class="form-control" id="cardNumberField">
+        </div>
+      </article>
+
+      <hr>
+
+      <article class="container">
+        <h3>Neither Personal nor Credit Card Field</h3>
+        <div class="form-group">
+          <label for="hobbyField">Hobby</label>
+          <input type="text" class="form-control" id="hobbyField">
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <hr>
+
+  <footer class="text-center lead">
+    <a target="_blank" href="https://bugzilla.gnome.org/show_bug.cgi?id=696867">Original issue</a>
+  </footer>
+
+  <script crossorigin="anonymous" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script crossorigin="anonymous" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+          integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"></script>
+</body>
+</html>
