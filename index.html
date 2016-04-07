@@ -25,23 +25,23 @@
         <form>
           <div class="form-group">
             <label for="personalFormFirstname">First Name</label>
-            <input type="text" class="form-control" id="personalFormFirstname">
+            <input type="text" name="firstname" class="form-control" id="personalFormFirstname">
           </div>
           <div class="form-group">
             <label for="personalFormLastname">Last Name</label>
-            <input type="text" class="form-control" id="personalFormLastname">
+            <input type="text" name="lastname" class="form-control" id="personalFormLastname">
           </div>
           <div class="form-group">
             <label for="personalFormAddress">Address</label>
-            <input type="text" class="form-control" id="personalFormAddress">
+            <input type="text" name="address" class="form-control" id="personalFormAddress">
           </div>
           <div class="form-group">
             <label for="personalFormPostalCode">Postal Code</label>
-            <input type="text" class="form-control" id="personalFormPostalCode">
+            <input type="text" name="postalCode" class="form-control" id="personalFormPostalCode">
           </div>
           <div class="form-group">
             <label for="personalFormHobby">Hobby</label>
-            <input type="text" class="form-control" id="personalFormHobby">
+            <input type="text" name="hobby" class="form-control" id="personalFormHobby">
           </div>
         </form>
       </article>
@@ -53,7 +53,7 @@
         <form>
           <div class="form-group">
             <label for="cardFormType">Credit Card Type</label>
-            <select class="form-control" id="cardFormType">
+            <select name="cardType" class="form-control" id="cardFormType">
               <option value="A" selected>American Express</option>
               <option value="D">Discover</option>
               <option value="M">MasterCard</option>
@@ -62,11 +62,11 @@
           </div>
           <div class="form-group">
             <label for="cardFormNumber">Credit Card Number</label>
-            <input type="text" class="form-control" id="cardFormNumber">
+            <input type="text" name="cardNumber" class="form-control" id="cardFormNumber">
           </div>
           <div class="form-group">
             <label for="cardFormHobby">Hobby</label>
-            <input type="text" class="form-control" id="cardFormHobby">
+            <input type="text" name="hobby" class="form-control" id="cardFormHobby">
           </div>
         </form>
       </article>
@@ -75,26 +75,26 @@
 
       <article class="container">
         <h3>Personal and Credit Card Fields</h3>
-        <form name="myForm">
+        <form>
           <div class="form-group">
             <label for="personalAndCardFormFirstname">First Name</label>
-            <input type="text" class="form-control" id="personalAndCardFormFirstname">
+            <input type="text" name="firstname" class="form-control" id="personalAndCardFormFirstname">
           </div>
           <div class="form-group">
             <label for="personalAndCardFormLastname">Last Name</label>
-            <input type="text" class="form-control" id="personalAndCardFormLastname">
+            <input type="text" name="lastname" class="form-control" id="personalAndCardFormLastname">
           </div>
           <div class="form-group">
             <label for="personalAndCardFormAddress">Address</label>
-            <input type="text" class="form-control" id="personalAndCardFormAddress">
+            <input type="text" name="address" class="form-control" id="personalAndCardFormAddress">
           </div>
           <div class="form-group">
             <label for="personalAndCardFormPostalCode">Postal Code</label>
-            <input type="text" class="form-control" id="personalAndCardFormPostalCode">
+            <input type="text" name="postalCode" class="form-control" id="personalAndCardFormPostalCode">
           </div>
           <div class="form-group">
             <label for="personalAndCardFormType">Credit Card Type</label>
-            <select class="form-control" id="personalAndCardFormType">
+            <select name="cardType" class="form-control" id="personalAndCardFormType">
               <option value="A" selected>American Express</option>
               <option value="D">Discover</option>
               <option value="M">MasterCard</option>
@@ -103,11 +103,11 @@
           </div>
           <div class="form-group">
             <label for="personalAndCardFormNumber">Credit Card Number</label>
-            <input type="text" class="form-control" id="personalAndCardFormNumber">
+            <input type="text" name="cardNumber" class="form-control" id="personalAndCardFormNumber">
           </div>
           <div class="form-group">
             <label for="personalAndCardFormHobby">Hobby</label>
-            <input type="text" class="form-control" id="personalAndCardFormHobby">
+            <input type="text" name="hobby" class="form-control" id="personalAndCardFormHobby">
           </div>
         </form>
       </article>
@@ -119,11 +119,11 @@
         <form>
           <div class="form-group">
             <label for="noFieldsFormPet">Pet Name</label>
-            <input type="text" class="form-control" id="noFieldsFormPet">
+            <input type="text" name="petName" class="form-control" id="noFieldsFormPet">
           </div>
           <div class="form-group">
             <label for="noFieldsFormHobby">Hobby</label>
-            <input type="text" class="form-control" id="noFieldsFormHobby">
+            <input type="text" name="hobby" class="form-control" id="noFieldsFormHobby">
           </div>
         </form>
       </article>
@@ -138,7 +138,7 @@
         <h3>Personal Field</h3>
         <div class="form-group">
           <label for="nameField">Full Name</label>
-          <input type="text" class="form-control" id="nameField">
+          <input type="text" name="fullname" class="form-control" id="nameField">
         </div>
       </article>
 
@@ -148,7 +148,7 @@
         <h3>Credit Card Field</h3>
         <div class="form-group">
           <label for="cardNumberField">Credit Card Number</label>
-          <input type="text" class="form-control" id="cardNumberField">
+          <input type="text" name="cardNumber" class="form-control" id="cardNumberField">
         </div>
       </article>
 
@@ -158,7 +158,7 @@
         <h3>Neither Personal nor Credit Card Field</h3>
         <div class="form-group">
           <label for="hobbyField">Hobby</label>
-          <input type="text" class="form-control" id="hobbyField">
+          <input type="text" name="hobby" class="form-control" id="hobbyField">
         </div>
       </article>
     </section>
